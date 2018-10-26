@@ -1,8 +1,11 @@
+!main.js
 .git
 .github
 .xdignore
 .gitignore
 node_modules/
+src/
 package.json
 yarn.lock
 README.md
+webpack.config.js
