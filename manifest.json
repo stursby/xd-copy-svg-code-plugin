@@ -1,0 +1,24 @@
+{
+  "name": "Copy SVG Code",
+  "id": "fc1f2874",
+  "version": "1.0.0",
+  "description": "Plugin to generate SVG code from selection.",
+  "icons": [
+    {
+      "width": 96,
+      "height": 96,
+      "path": "images/icon.png"
+    }
+  ],
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Copy SVG Code",
+      "commandId": "copySvgCode"
+    }
+  ]
+}

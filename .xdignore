@@ -1,0 +1,8 @@
+.git
+.github
+.xdignore
+.gitignore
+node_modules/
+package.json
+yarn.lock
+README.md
