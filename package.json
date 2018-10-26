@@ -10,7 +10,8 @@
     "plugin:install": "./node_modules/.bin/xdpm install -o",
     "plugin:watch": "./node_modules/.bin/xdpm watch",
     "plugin:validate": "./node_modules/.bin/xdpm validate",
-    "plugin:publish": "yarn build:prod && ./node_modules/.bin/xdpm publish"
+    "plugin:publish": "yarn build:prod && ./node_modules/.bin/xdpm publish",
+    "functions:update": "cd functions && wt update svgo svgo.js"
   },
   "devDependencies": {
     "@adobe/xdpm": "^1.1.1",
