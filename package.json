@@ -4,17 +4,24 @@
   "main": "main.js",
   "license": "MIT",
   "scripts": {
-    "install": "./node_modules/.bin/xdpm install",
-    "dev": "./node_modules/.bin/xdpm watch",
-    "validate": "./node_modules/.bin/xdpm validate",
-    "package": "./node_modules/.bin/xdpm package"
+    "dev": "./node_modules/.bin/nodemon -w src -e js -w webpack.config.js -x yarn build",
+    "build": "./node_modules/.bin/webpack --mode development && yarn plugin:watch",
+    "build:prod": "./node_modules/.bin/webpack --mode production",
+    "plugin:install": "./node_modules/.bin/xdpm install -o",
+    "plugin:watch": "./node_modules/.bin/xdpm watch",
+    "plugin:validate": "./node_modules/.bin/xdpm validate",
+    "plugin:publish": "yarn build:prod && ./node_modules/.bin/xdpm publish"
   },
   "devDependencies": {
-    "@adobe/xdpm": "^1.1.1"
+    "@adobe/xdpm": "^1.1.1",
+    "nodemon": "^1.18.5",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
   },
   "prettier": {
     "semi": false,
     "singleQuote": true,
     "trailingComma": "none"
-  }
+  },
+  "dependencies": {}
 }
