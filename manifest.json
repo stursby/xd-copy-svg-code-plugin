@@ -18,7 +18,11 @@
     {
       "type": "menu",
       "label": "Copy SVG Code",
-      "commandId": "copySvgCode"
+      "commandId": "copySvgCode",
+      "shortcut": {
+        "mac": "Ctrl+Option+C",
+        "win": "Ctrl+Alt+C"
+      }
     }
   ]
 }
