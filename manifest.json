@@ -1,7 +1,7 @@
 {
   "name": "Copy SVG Code",
   "id": "fc1f2874",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin to generate SVG code from selection.",
   "icons": [
     {
