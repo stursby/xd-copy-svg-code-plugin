@@ -4,17 +4,20 @@
   "main": "main.js",
   "license": "MIT",
   "scripts": {
-    "dev": "./node_modules/.bin/nodemon -w src -e js -w webpack.config.js -x yarn build",
+    "dev": "./node_modules/.bin/nodemon -w src -e js -w webpack.config.js -x \"yarn build & yarn xd:reload-plugins\"",
     "build": "./node_modules/.bin/webpack --mode development && yarn plugin:watch",
     "build:prod": "./node_modules/.bin/webpack --mode production",
     "plugin:install": "./node_modules/.bin/xdpm install -o",
     "plugin:watch": "./node_modules/.bin/xdpm watch",
     "plugin:validate": "./node_modules/.bin/xdpm validate",
-    "plugin:publish": "yarn build:prod && ./node_modules/.bin/xdpm publish"
+    "plugin:publish": "yarn build:prod",
+    "xd:reload-plugins": "node ./scripts/reload-xd.js"
   },
   "devDependencies": {
     "@adobe/xdpm": "^1.1.1",
+    "applescript": "^1.0.0",
     "nodemon": "^1.18.5",
+    "run-applescript": "^3.2.0",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   },
