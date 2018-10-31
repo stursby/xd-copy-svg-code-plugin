@@ -6,7 +6,19 @@
 
 ## Demo
 
-![icon](.github/demo.gif)
+![demo](.github/demo.gif)
+
+## Install
+
+### From the XD market
+
+The easiest way is to get the plugin via the XD market. To do so, open XD and in the menu, navigate to `Plugins` > `Discover Plugins` and then search for "SVG" and it should be the fist one. Here's a demo of how it works!
+
+![install](.github/install.gif)
+
+### From GitHub releases
+
+Head over to the [Latest Releases](https://github.com/stursby/xd-copy-svg-code-plugin/releases) page and then downloaded the newest `.xdx` file. Once downloaded, double click to install!
 
 ## Todo
 
