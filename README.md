@@ -14,7 +14,7 @@ Not sure if all of these are possible, but things I'd like to add.
 
 - [ ] Add right click dialog
 - [x] Add shortcut (mac: "Ctrl+Option+C", win: "Ctrl+Alt+C")
-- [ ] Allow for multiple selections / Auto group selections
+- [x] Allow for multiple selections / Auto group selections
 - [ ] Optimize with `svgo`
 - [ ] Allow user to change default options
 - [ ] Get cooler icon (any designers out there?!)
