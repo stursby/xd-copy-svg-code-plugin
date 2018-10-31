@@ -9,6 +9,7 @@ module.exports = {
   externals: {
     uxp: 'uxp',
     application: 'application',
-    clipboard: 'clipboard'
+    clipboard: 'clipboard',
+    commands: 'commands'
   }
 }

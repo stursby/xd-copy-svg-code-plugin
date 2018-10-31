@@ -2,6 +2,7 @@
 const fs = require('uxp').storage.localFileSystem
 const application = require('application')
 const clipboard = require('clipboard')
+const commands = require('commands')
 const { createDialog, error } = require('./lib/dialogs.js')
 
 // Main function
@@ -12,13 +13,9 @@ async function copySvgCode(selection) {
     return
   }
 
-  // Error if multiple selections and not grouped
+  // Group if multiple selections
   if (selection.items.length >= 2) {
-    error(
-      'Too many selections',
-      'Please select one SVG or group multiple together.'
-    )
-    return
+    commands.group()
   }
 
   // Setup tmp folder and file
