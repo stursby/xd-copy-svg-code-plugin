@@ -7,6 +7,7 @@
   "summary": "Generate SVG code.",
   "helpUrl": "https://github.com/stursby/xd-copy-svg-code-plugin/issues",
   "keywords": ["svg", "copy", "code"],
+  "releaseNotes": "Fix copy to clipboard issue for Windows",
   "icons": [
     {
       "width": 24,
