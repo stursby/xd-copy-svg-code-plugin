@@ -6,7 +6,7 @@
   "description": "Plugin to generate SVG code from selection.",
   "summary": "Generate SVG code.",
   "helpUrl": "https://github.com/stursby/xd-copy-svg-code-plugin/issues",
-  "keyword": ["svg", "copy", "code"],
+  "keywords": ["svg", "copy", "code"],
   "icons": [
     {
       "width": 24,
