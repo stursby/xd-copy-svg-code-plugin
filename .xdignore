@@ -8,3 +8,4 @@ package.json
 yarn.lock
 README.md
 webpack.config.js
+scripts

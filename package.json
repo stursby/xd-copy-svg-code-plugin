@@ -15,7 +15,7 @@
     "xd:reload-plugins": "node ./scripts/reload-xd.js"
   },
   "devDependencies": {
-    "@adobe/xdpm": "^1.1.1",
+    "@adobe/xdpm": "^3.0.1",
     "applescript": "^1.0.0",
     "nodemon": "^1.18.5",
     "run-applescript": "^3.2.0",
@@ -26,6 +26,5 @@
     "semi": false,
     "singleQuote": true,
     "trailingComma": "none"
-  },
-  "dependencies": {}
+  }
 }
