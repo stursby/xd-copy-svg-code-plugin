@@ -1,4 +1,4 @@
-![icon](images/icon.png)
+![icon](images/icon-96.png)
 
 # Copy SVG Code
 
